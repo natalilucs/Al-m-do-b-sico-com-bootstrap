@@ -1,0 +1,22 @@
+.list-group-item.active {    
+    color: #fff;
+    background-color: #563d7c;
+    border-color: #563d7c;
+}
+
+body{
+    background-color: #d5cee0;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #563d7c;
+ }
+
+@media (min-width: 768px) {
+    .body{
+        display: none;
+    }
+    
+}

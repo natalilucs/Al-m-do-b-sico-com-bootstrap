@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../bootstrap-4.6.0-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Boostrap</title>
+</head>
+
+<body>
+
+  <!-- Crie uma pagina sobre "bootstrap" seguindo os seguintes critérios:
+    1. A visualização da página deve ser mantida para Telas com tamanho maior ou igual a 768px;
+    2. você deve incluir uma tabela com números, estimativas... (fictício ou não), apenas para praticarmos as classes de tabelas ;)
+    3. Deve conter um formato de lista que exiba em uma nova guia(tab) parágrafos tratando sobre o assunto.
+    4. No texto apresentado na guia do item 3, vc deve deixar o texto justificado.
+    5. No ultimo paragrafo, vc deve colocar todas as primeiras letras de cada palavra em maiúsculo.
+    6. Crie também uma lista instruindo ao usuário o que cada aviso do texto corresponde. Exemplo:
+    - vermelho - atenção vc ja está nesta pagina por muito tempo.
+    - amarelo - você precisa descançar... -->
+<div class="container-md">
+    <div class="row text-decoration-none text-center">
+      <li class="btn btn-dark"><a href="index.html">HOME</a></li>
+      <li class="btn btn-dark"><a>ESTIMATIVAS</a></li>
+      <li class="btn btn-dark"><a href="https://getbootstrap.com.br/" target="_blank">SAIBA MAIS</a></li>
+    </div>
+
+    <div class="row">
+      <main class="col-md-9 bg-info">
+
+        <table class="table table-hover table-responsive-md">
+          <thead>
+            <tr>
+              <th>APP</th>
+              <th>ANO</th>
+              <th>CRIADOR</th>
+              <th>USUÁRIOS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Facebook</th>
+              <td>2004</td>
+              <td>Mark Zuckeberg</td>
+              <td>3 bilhoes</td>
+            </tr>
+            <tr>
+              <th>Instagram</th>
+              <td>2010</td>
+              <td>Kevin Systrom e Mike Krieger</td>
+              <td>1,22 bilhoes</td>
+            </tr>
+            <tr>
+              <th>Linkedin</th>
+              <td>2002</td>
+              <td>Reid Hoffman</td>
+              <td>575 milhões</td>
+            </tr>
+            <tr>
+              <th>Twitter</th>
+              <td>2006</td>
+              <td>Jack Dorsey</td>
+              <td>500 milhões</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </main>
+
+      <aside class="col-md-3 bg-info">
+
+
+        <div class=" alert alert-success" class="row">Parabéns, você em breve terá sua própria rede!</div>
+        <div class=" alert alert-warning">Cuidado, tempo demais exposto à telas pode ser prejudicial para sua saúde e
+          mente.
+        </div>
+        <div class="alert alert-danger">Você está em perigo, para com as redes sociais! </div>
+
+
+
+
+      </aside>
+
+
+    </div>
+
+    <!-- Grupo de lista -->
+    <div class="list-group" id="minhaLista" role="tablist">
+      <a class="list-group-item list-group-item-action" data-toggle="list" href="#oquee" role="tab">
+        O que é?</a>
+      <a class="list-group-item list-group-item-action" data-toggle="list" href="#perfil" role="tab">
+        Quando Usar</a>
+      <a class="list-group-item list-group-item-action" data-toggle="list" href="#mensagens" role="tab">
+        Comunidade</a>
+      <a class="list-group-item list-group-item-action" data-toggle="list" href="#configuracoes" role="tab">
+        Criação</a>
+    </div>
+    <!-- Painel de abas -->
+    <div class="tab-content">
+      <div class="tab-pane fade bg-success" id="oquee" role="tabpanel">
+        Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e
+        front-end para sites e aplicações web usando HTML, CSS e JavaScript, baseado em modelos de design para a
+        tipografia, melhorando a experiência do usuário em um site amigável e responsivo.
+      </div>
+      <div class="tab-pane fade bg-info" id="perfil" role="tabpanel">
+        O Bootstrap é usado para criar botões, formulários, tabelas, dropdowns e em breve poderá ser integrado no seu
+        site e aplicações com um simples código fonte.
+      </div>
+      <div class="tab-pane fade bg-success" id="mensagens" role="tabpanel">
+        Como em tantos projetos de código aberto, o Bootstrap tem uma grande comunidade de designers e desenvolvedores
+        por trás dele. Estar hospedado no GitHub torna mais fácil para os desenvolvedores modificar e contribuir com a
+        base de código do Bootstrap.
+      </div>
+      <div class="tab-pane fade bg-info" id="configuracoes" role="tabpanel">     
+        O Bootstrap foi criado no Twitter em meados de 2010. Antes de ser uma estrutura de código
+        aberto, o Bootstrap era conhecido como Twitter Blueprint.
+      </div>
+    </div>
+
+
+
+
+    <!-- 
+    <div class="row bg-success">
+      <footer>
+        FOOTER FOOTER FOOTER
+      </footer>
+
+    </div> -->
+
+
+
+    <script src="../jquery-js/jquery-3.6.0.min.js"></script>
+    <script src="../bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+
+</div>
+</body>
+
+</html>
